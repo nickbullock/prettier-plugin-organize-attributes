@@ -10,4 +10,5 @@ export declare const options: {
 export declare type PrettierPluginOrganizeAttributesParserOptions = {
     attributeGroups: string[];
     attributeSort: "ASC" | "DESC" | "NONE";
+    attributeIgnoreCase: boolean;
 };
